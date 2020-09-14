@@ -1,0 +1,2 @@
+g++ -o servertest servertest.cpp my_insert.h mysql_insert.c `mysql_config --cflags --libs`
+
